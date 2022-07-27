@@ -61,7 +61,66 @@
           <div id="Research" class="content-region hide">
             <h2>Research</h2>
             <p>
-              Research
+              My primary field is sentence processing. I take insights from Linguistic Theory and Cognitive Psychology to study the processes that enable us to understand sentences. My research can be broken down into the following interconnected streams:
+            </p>
+            
+            <h4>
+              Prediction in Human Language Comprehension and Language Models
+            </h4>
+
+            <p>
+              A word's predictability in its context has dramatic effects on its processing. For instance, predictable words are read faster than unpredictable ones.
+            </p>
+            
+            <ol>
+              <li>I made a trip to Costco to buy an excessive amount of maple syrup.</li>
+              <li>I tend to cover my pancakes with an excessive amount of maple syrup.</li>
+            </ol>
+ 
+            <p>
+              "maple syrup" is read faster when in context #2 because it has been predicted (or preactivated) to a higher degree.
+            </p>
+
+            <p>
+              I study two aspects of this: what is it that is being predicted and what information is used to generate those predictions? I've used EEG, eye tracking while reading and a battery of behavioral experiments to answer these questions.
+            </p>
+
+            <p>
+              I am also interested in comparing predictions that people make to predictions that computers (Language Models) make. I have directly compared human sentence continuations to continuations provided by BERT (Devlin et al. 2018) and also to a novel bag-of-words language model I developed to get insights into what kinds of information seem to be prioritized and represented in humans and computers.
+            </p>
+            
+            <h4>
+              Thematic Role Processing
+            </h4>
+
+            <p>
+              Sentences are rich with information for us to extract and interpret. One core piece of information we must interpret is how the noun(s) in the sentence relate to the verb(s); e.g. who is doing what to whom. While these thematic relations are often ultimately unambiguous, they can be challenging to interpret incrementally, especially when half way through a non-SVO sentence such as an embedded wh-question (as in below).
+            </p>
+
+            <ol>
+              <li>I saw which seal the fish was chasing. (This isn't typically how the world works)</li>
+              <li>I saw which fish the seal was chasing. (This is more typical: the seal is the 'chaser' and the fish is the 'chasee')</li>
+            </ol>
+            
+            <p>
+              My research investigates what intermediate representations arise in sentences of this type and how we ultimately understand them.
+            </p>
+            
+            <h4>
+              The Implementation of the Binding Principles
+            </h4>
+            
+            <p>
+              Syntacticians and Semanticists have formulated various rules and constraints that ensure that when we get a sentence with a pronoun or a reflexive, we are guided to interpreting it in particular ways. For example, we are dissuaded from interpreting "her" as referring back to "Callie" in sentence 1, but not in sentence 2:
+            </p>
+            
+            <ol>
+              <li>Callie loves her. (her ≠ Callie)</li>
+              <li>Callie wonders if Nora loves her. (her = Callie)</li>
+            </ol>
+            
+            <p>
+              "Principle B," which postulates which entities a pronoun such as "her" in the example above can refer back to, is one such descriptive rule linguists have come up with. In work with Dr. Brian Dillon, I am investigating how exactly this rule is implemented algorithmically by using the visual world paradigm.
             </p>
           </div>
           
